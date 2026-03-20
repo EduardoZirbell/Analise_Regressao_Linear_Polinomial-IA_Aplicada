@@ -1,137 +1,133 @@
-# Analise_Correlacao-Regressao_Linear
+# 📊 Projeto de Regressão e Análise de Dados
 
-📊 Projeto de Regressão e Análise de Dados
+Este trabalho tem como objetivo aplicar, na prática, conceitos de estatística e aprendizado de máquina, com foco em regressão linear e análise de dados.
 
-Este trabalho tem como objetivo aplicar, na prática, alguns conceitos importantes de estatística e aprendizado de máquina, principalmente envolvendo regressão linear e análise de dados.
+O projeto foi dividido em 3 fases, onde cada uma aborda um tipo diferente de análise e modelo.
 
-A ideia geral foi pegar diferentes conjuntos de dados e analisar como as variáveis se relacionam entre si, além de tentar prever valores com base nessas relações.
+---
 
-O projeto foi dividido em 3 fases, cada uma com um foco diferente.
+## 🚀 Tecnologias Utilizadas
 
-🚀 Tecnologias Utilizadas
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
 
-Python; NumPy; Pandas; Matplotlib; Scikit-learn
+---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
 
 ├── fase1.ipynb
-
 ├── fase2.ipynb
-
 ├── fase3.ipynb
-
 ├── data.csv
-
 ├── data_preg.csv
-
 └── README.md
 
-📌 Fase 1 – Correlação e Regressão Linear
 
-Nessa primeira parte, o foco foi entender a relação entre duas variáveis, usando conceitos básicos como correlação e regressão linear.
-Foi calculado o coeficiente de correlação (r), que indica o quanto as variáveis estão relacionadas, e também foi feita a regressão linear para tentar prever valores.
+---
 
-O que foi feito:
+## 📌 Fase 1 – Correlação e Regressão Linear
 
-Cálculo da correlação
+Nessa fase foi analisada a relação entre duas variáveis utilizando correlação e regressão linear.
 
-Cálculo dos coeficientes da reta (β₀ e β₁)
+### O que foi feito:
 
-Gráficos de dispersão
+- Cálculo do coeficiente de correlação  
+- Cálculo dos coeficientes da regressão (β₀ e β₁)  
+- Gráficos de dispersão  
+- Plot da reta de regressão  
 
-Plot da reta de regressão
+### Observações:
 
+- Um dos datasets apresentou uma boa relação linear  
+- Outro não seguiu um padrão linear claro  
+- Houve presença de outliers em um dos casos, o que prejudicou a análise  
 
-Observações:
+---
 
-Um dos datasets apresentou uma boa relação linear
-Outro já não seguia um padrão linear muito claro
-Teve também um caso com muitos outliers, o que prejudicou bastante a análise
+## 📌 Fase 2 – Regressão Linear Múltipla
 
-📌 Fase 2 – Regressão Linear Múltipla
+Aqui foi trabalhado com mais de uma variável para prever um resultado (preço de casas).
 
-Aqui o objetivo foi trabalhar com mais de uma variável explicativa, analisando como elas influenciam em um resultado (no caso, preço de casas).
+### Dados utilizados:
 
-Dados utilizados:
-Tamanho da casa
+- Tamanho da casa  
+- Número de quartos  
+- Preço  
 
-Número de quartos
+### O que foi feito:
 
-Preço
+- Análise estatística dos dados  
+- Cálculo de correlação entre variáveis  
+- Regressão linear múltipla (manual e com biblioteca)  
+- Gráfico 3D  
+- Predição de valores  
 
-O que foi feito:
+### Observações:
 
-Análise estatística dos dados
+- O tamanho da casa teve maior impacto no preço  
+- O número de quartos teve menor influência  
+- Os resultados entre a implementação manual e o Scikit-learn foram bem próximos  
 
-Verificação de correlação entre variáveis
+---
 
-Implementação da regressão múltipla (manual e com biblioteca)
+## 📌 Fase 3 – Regressão Polinomial e Overfitting
 
-Geração de gráfico 3D
+Nesta fase foi analisado o comportamento de modelos mais complexos.
 
-Realização de previsões
+### O que foi feito:
 
-Observações:
+- Regressão polinomial (graus 1, 2, 3 e 8)  
+- Cálculo do erro quadrático médio (EQM)  
+- Separação entre treino e teste  
+- Avaliação com R²  
 
-O tamanho da casa teve um impacto bem maior no preço
+### Observações:
 
-Já o número de quartos não influenciou tanto quanto esperado
+- Modelos mais complexos se ajustam melhor aos dados de treino  
+- Porém podem causar overfitting  
+- O melhor modelo é aquele que tem bom desempenho nos dados de teste  
 
-Os resultados entre a implementação própria e o Scikit-learn ficaram bem próximos
+---
 
-📌 Fase 3 – Regressão Polinomial e Overfitting
+## ⚠️ Conceitos Importantes
 
-Nessa fase foi estudado como modelos mais complexos se comportam, principalmente em relação ao overfitting.
-Foram testados modelos com diferentes graus (1, 2, 3 e 8), comparando os resultados.
+- **Overfitting:** modelo se ajusta demais aos dados de treino  
+- **Underfitting:** modelo simples demais  
+- **EQM:** mede o erro das previsões  
+- **R²:** mede o quanto o modelo explica os dados  
 
-O que foi feito:
+---
 
-Regressão polinomial
+## ▶️ Como Executar
 
-Cálculo do erro quadrático médio (EQM)
+1. Instale as dependências:
 
-Separação entre treino e teste
-
-Avaliação usando R²
-
-Observações:
-
-Modelos mais complexos tendem a se ajustar melhor aos dados de treino
-
-Porém, nem sempre isso significa que são melhores
-
-Em alguns casos ocorreu overfitting, onde o modelo "decorou" os dados
-
-⚠️ Conceitos Importantes
-
-Overfitting: quando o modelo se ajusta demais aos dados de treino
-
-Underfitting: quando o modelo é simples demais
-
-EQM: mede o erro das previsões
-
-R²: indica o quanto o modelo consegue explicar os dados
-
-▶️ Como Executar
-
-Instalar as bibliotecas necessárias:
 
 pip install numpy pandas matplotlib scikit-learn
 
-Rodar o Jupyter:
+
+2. Execute o Jupyter Notebook:
+
 
 jupyter notebook
 
-Abrir os arquivos:
 
-fase1.ipynb
+3. Abra os arquivos:
 
-fase2.ipynb
+- `fase1.ipynb`  
+- `fase2.ipynb`  
+- `fase3.ipynb`  
 
-fase3.ipynb
+---
 
-📚 Conclusão
+## 📚 Conclusão
 
-De forma geral, o trabalho ajudou a entender melhor como funcionam os modelos de regressão e como eles podem ser aplicados em problemas reais.
-Também foi possível perceber que nem sempre um modelo mais complexo é melhor, e que a análise dos dados é uma parte muito importante do processo.
-Além disso, ficou claro que a validação com dados de teste é essencial pra evitar conclusões erradas.
+O projeto permitiu entender melhor como funcionam os modelos de regressão e como aplicá-los na prática.
+
+Também mostrou a importância da análise dos dados e da validação com dados de teste, evitando problemas como overfitting.
+
+---
