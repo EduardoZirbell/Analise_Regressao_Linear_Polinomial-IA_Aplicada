@@ -7,10 +7,15 @@ A ideia geral foi pegar diferentes conjuntos de dados e analisar como as variáv
 O projeto foi dividido em 3 fases, cada uma com um foco diferente.
 
 🚀 Tecnologias Utilizadas: 
+
 Python
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 Scikit-learn
 
 📌 Fase 1 – Correlação e Regressão Linear: 
