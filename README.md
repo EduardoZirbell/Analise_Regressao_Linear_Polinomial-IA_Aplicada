@@ -12,15 +12,6 @@ Pandas
 Matplotlib
 Scikit-learn
 
-📁 Estrutura do Projeto
-
-├── fase1.ipynb
-├── fase2.ipynb
-├── fase3.ipynb
-├── data.csv
-├── data_preg.csv
-└── README.md
-
 📌 Fase 1 – Correlação e Regressão Linear
 
 Nessa primeira parte, o foco foi entender a relação entre duas variáveis, usando conceitos básicos como correlação e regressão linear.
