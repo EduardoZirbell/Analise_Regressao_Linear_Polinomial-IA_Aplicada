@@ -13,6 +13,7 @@ Matplotlib
 Scikit-learn
 
 📁 Estrutura do Projeto
+
 ├── fase1.ipynb
 ├── fase2.ipynb
 ├── fase3.ipynb
