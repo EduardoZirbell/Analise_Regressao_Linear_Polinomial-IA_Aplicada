@@ -34,9 +34,13 @@ Foi calculado o coeficiente de correlação (r), que indica o quanto as variáve
 O que foi feito:
 
 Cálculo da correlação
+
 Cálculo dos coeficientes da reta (β₀ e β₁)
+
 Gráficos de dispersão
+
 Plot da reta de regressão
+
 
 Observações:
 
@@ -50,21 +54,29 @@ Aqui o objetivo foi trabalhar com mais de uma variável explicativa, analisando 
 
 Dados utilizados:
 Tamanho da casa
+
 Número de quartos
+
 Preço
 
 O que foi feito:
 
 Análise estatística dos dados
+
 Verificação de correlação entre variáveis
+
 Implementação da regressão múltipla (manual e com biblioteca)
+
 Geração de gráfico 3D
+
 Realização de previsões
 
 Observações:
 
 O tamanho da casa teve um impacto bem maior no preço
+
 Já o número de quartos não influenciou tanto quanto esperado
+
 Os resultados entre a implementação própria e o Scikit-learn ficaram bem próximos
 
 📌 Fase 3 – Regressão Polinomial e Overfitting
@@ -75,14 +87,19 @@ Foram testados modelos com diferentes graus (1, 2, 3 e 8), comparando os resulta
 O que foi feito:
 
 Regressão polinomial
+
 Cálculo do erro quadrático médio (EQM)
+
 Separação entre treino e teste
+
 Avaliação usando R²
 
 Observações:
 
 Modelos mais complexos tendem a se ajustar melhor aos dados de treino
+
 Porém, nem sempre isso significa que são melhores
+
 Em alguns casos ocorreu overfitting, onde o modelo "decorou" os dados
 
 ⚠️ Conceitos Importantes
@@ -108,7 +125,9 @@ jupyter notebook
 Abrir os arquivos:
 
 fase1.ipynb
+
 fase2.ipynb
+
 fase3.ipynb
 
 📚 Conclusão
