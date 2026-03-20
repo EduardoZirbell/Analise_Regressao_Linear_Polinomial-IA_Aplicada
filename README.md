@@ -1,6 +1,7 @@
 # Analise_Correlacao-Regressao_Linear
 
 📊 Projeto de Regressão e Análise de Dados: 
+
 Este trabalho tem como objetivo aplicar, na prática, alguns conceitos importantes de estatística e aprendizado de máquina, principalmente envolvendo regressão linear e análise de dados.
 A ideia geral foi pegar diferentes conjuntos de dados e analisar como as variáveis se relacionam entre si, além de tentar prever valores com base nessas relações.
 O projeto foi dividido em 3 fases, cada uma com um foco diferente.
